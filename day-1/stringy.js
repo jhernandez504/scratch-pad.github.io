@@ -28,11 +28,16 @@ function length(string) {
 /**
  * Given an input String, return a new String forced to lowercase.
  */
+/** 
+  I: Function takes in string
+  O: Function converts string to lowerCase and returns
+  C:
+  E:
+*/
 function toLowerCase(string) {
     // YOUR CODE BELOW HERE //
-
-
-
+    //returns string converted to lowerCase
+    return string.toLowerCase();
     // YOUR CODE ABOVE HERE //
 }
 
