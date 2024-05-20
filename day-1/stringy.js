@@ -81,7 +81,7 @@ function toUpperCase(string) {
 function toDashCase(string) {
     // YOUR CODE BELOW HERE //
     //returns string with dashes replacing spaces
-    return string.replace(" ", "-");
+    return string.toDashCase(" ");
 
 
     // YOUR CODE ABOVE HERE //
@@ -99,6 +99,12 @@ function toDashCase(string) {
  * TIP: How can you use Array access to your advantage here? How can you
  *      ensure uppercase and lowercase can be compared equally?
  */
+/** 
+  I: Function takes in string and a single char 
+  O: Function compares char to first index of string and returns true if theyre equal
+  C: Compare string first index and char loosely
+  E:
+*/
 function beginsWith(string, char) {
     // YOUR CODE BELOW HERE //
 
