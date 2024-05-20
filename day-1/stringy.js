@@ -107,16 +107,8 @@ function toDashCase(string) {
 */
 function beginsWith(string, char) {
     // YOUR CODE BELOW HERE //
-  let firstPart = string.split(' ')[0];
-    // if else condition to compare 1st index of string and char
-  
-  if (firstPart[0] == char){
-      //returns true if equal
-      return true;
-      }  else {
-        //returns false if not equal
-          return false;
-   }
+  //returns true if string[0] loosely equals char
+  return string[0] == char;
     // YOUR CODE ABOVE HERE //
 }
 
