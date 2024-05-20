@@ -107,9 +107,14 @@ function toDashCase(string) {
 */
 function beginsWith(string, char) {
     // YOUR CODE BELOW HERE //
-
-    
-
+  // if else condition to compare 1st index of string and char
+  if (string[0] = char){
+    //returns true if equal
+    return true;
+   }  else {
+     //returns false if not equal
+     return false;
+   }
     // YOUR CODE ABOVE HERE //
 }
 
