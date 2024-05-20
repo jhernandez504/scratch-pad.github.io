@@ -81,7 +81,7 @@ function toUpperCase(string) {
 function toDashCase(string) {
     // YOUR CODE BELOW HERE //
     //returns string with dashes replacing spaces
-    return string.toDashCase();
+    return string.toDashCase(" ");
 
 
     // YOUR CODE ABOVE HERE //
