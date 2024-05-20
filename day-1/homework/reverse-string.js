@@ -34,7 +34,8 @@ function reverseString(input) {
       reversedString.push(input[i]);
     }
     //return joined reversed string
-    return reversedString;
+    let joinedReversed = reversedString.join('');
+    return joinedReversed;
     
     // YOUR CODE GOES ABOVE HERE //
 }
