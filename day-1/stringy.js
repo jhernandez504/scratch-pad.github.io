@@ -110,7 +110,7 @@ function beginsWith(string, char) {
   let firstPart = string.split(' ')[0];
     // if else condition to compare 1st index of string and char
   
-  if (firstPart[0] = char){
+  if (firstPart[0] == char){
       //returns true if equal
       return true;
       }  else {
