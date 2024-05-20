@@ -80,8 +80,8 @@ function toUpperCase(string) {
 */
 function toDashCase(string) {
     // YOUR CODE BELOW HERE //
-    //returns string with dashes replacing spaces
-    return string.replace(" ", "-");
+    //returns string with dash replacing space
+    return string.toLowerCase.replace(" ", "-");
 
 
     // YOUR CODE ABOVE HERE //
