@@ -12,9 +12,16 @@
  * TIP: In JavaScript, how can we decipher the length of a String?
  * work?
  */
+/** 
+  I: Function takes in string
+  O: Function counts the length of string and returns it using .length
+  C:
+  E:
+*/
 function length(string) {
     // YOUR CODE BELOW HERE //
-   
+    //counts and returns string length
+    return string.length;
     // YOUR CODE ABOVE HERE //
 }
 
