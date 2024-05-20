@@ -72,9 +72,16 @@ function toUpperCase(string) {
  *
  *      See: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace#Using_global_and_ignore_with_replace()
  */
+/** 
+  I: Function takes in string
+  O: Function replaces space with dashes and returns it
+  C:
+  E:
+*/
 function toDashCase(string) {
     // YOUR CODE BELOW HERE //
-
+    //returns string with dashes replacing spaces
+    return string.replace(" ", "-");
 
 
     // YOUR CODE ABOVE HERE //
