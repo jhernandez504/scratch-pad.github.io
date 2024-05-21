@@ -21,10 +21,8 @@ function printArrayValues(array) {
   //for loop to iterate thru array
   for (var i = 0; i < array.length; i++) {
     //logs to console the index of i on each iteration
-    console.log(array[i]);)
+    console.log(array[i]);
   }
-  
-  
   
   // YOUR CODE ABOVE HERE //
 }
@@ -33,9 +31,18 @@ function printArrayValues(array) {
  * Given an input Array, loop backwards over the Array and print its values 
  * using console.log().
  */
+/** 
+  I: An array if values is given
+  O: Values are printed in reverse order from the array
+  C: N/A
+  E: N/A
+*/
 function printArrayValuesInReverse(array) {
   // YOUR CODE BELOW HERE //
-  
+  //for loop to iterate over the array
+  for (var i = array.length - 1; i >= 0; i--) {
+    console.log(array[i]);
+  }
   
   
   
