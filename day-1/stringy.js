@@ -182,6 +182,12 @@ function concat(stringOne, stringTwo) {
  * TIP: This Function pulls out all the arguments passed to it and stores them
  *      in an Array called args.
  */
+/** 
+  I: Any number of strings
+  O: One joined string combining all strings from argument array
+  C: N/A
+  E: N/A
+*/
 function join(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
     var args = Array.from(arguments);
@@ -201,9 +207,23 @@ function join(stringOne, stringTwo) {
  *
  * TIP: What property of the String do we need to compare?
  */
+/** 
+  I: Two strings are inputted.
+  O: The longest string is returned.
+  C: N/A
+  E: N/A
+*/
 function longest(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
-
+  //if else statement comparing string1 and string 2
+  if (stringOne.length > stringTwo.length) {
+    //return stringOne if longest length
+    return stringOne;
+  } else if (stringTwo.length > stringOne.length){
+      //returns stringTwo if longest
+      return stringTwo
+  } else{
+  }
 
 
     // YOUR CODE ABOVE HERE //
