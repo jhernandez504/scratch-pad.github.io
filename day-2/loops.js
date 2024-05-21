@@ -97,9 +97,15 @@ function printObjectKeys(object) {
 /** 
  * Given an input Object, return an Array containing the Object's values.
  */
+/** 
+  I: An object is given
+  O: Return an array of object's values.
+  C: N/A
+  E: N/A
+*/
 function getObjectValues(object) {
   // YOUR CODE BELOW HERE //
-  
+  return Object.values(object);
   
   
   
