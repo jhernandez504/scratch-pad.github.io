@@ -108,11 +108,11 @@ function toDashCase(string) {
 function beginsWith(string, char) {
     // YOUR CODE BELOW HERE //
   //if else statement loosely comparing first character of string and char
-  if (string[0] == char) {
+  if (string[0] = char) {
     return true;
-  } else {
-      return false;
-    }
+  } 
+  //returns false if true condition is not met
+  return false;
     // YOUR CODE ABOVE HERE //
 }
 
