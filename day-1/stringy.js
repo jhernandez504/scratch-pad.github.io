@@ -245,7 +245,7 @@ function longest(stringOne, stringTwo) {
 function sortAscending(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
     //compare string1 to string 2 locally
-    return stringOne.localCompare(stringTwo);
+    return stringOne.localeCompare(stringTwo);
 
 
 
