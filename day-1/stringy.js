@@ -131,9 +131,23 @@ function beginsWith(string, char) {
  * TIP: How can you use Array access to your advantage here? How can you
  *      ensure uppercase and lowercase can be compared equally?
  */
+/** 
+  I: Function takes in string and a single char 
+  O: Function compares char to last index of string and returns true if theyre equal
+  C: N/A
+  E: N/A
+*/
 function endsWith(string, char) {
     // YOUR CODE BELOW HERE //
-
+  //declaration/initialization of variables to hold string and char in lower case
+  var word = string.toLowerCase();
+  var letter = char.toLowerCase();
+  //if statement to return true if last character in string is equal to char
+  if (word[string.length] == letter) {
+    return true;
+  }
+  //returns false by default if no characters are equal
+  return false;
 
 
     // YOUR CODE ABOVE HERE //
