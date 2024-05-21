@@ -84,7 +84,7 @@ function printObjectKeys(object) {
   // for in loop to iterate of object keys
   for (var key in object) {
     //logs to console each key
-    console.log(Object.key(object));
+    console.log(Object.keys(object));
   }
   
   
