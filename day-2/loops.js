@@ -172,7 +172,7 @@ function printObjectValuesInReverse(object) {
   for (let key in object){
     // declare/initialize variable array from obj key values
     var keyValues = Object.values(object);
-    keyValues.reverse().forEach(value{
+    keyValues.reverse().forEach(value >= {
       console.log(value);
     });
   }
