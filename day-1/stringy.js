@@ -260,9 +260,16 @@ function sortAscending(stringOne, stringTwo) {
  *
  * TIP: How can we compare Strings? Is 'a' greater than or less than 'b'?
  */
+/** 
+  I: Two Strings are inputted 
+  O: Integer is returned after comparison of alphabetical order of both strings
+  C: N/A
+  E: N/A
+*/
 function sortDescending(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
-
+  //compares both strings and returns integer -1, 0 or 1
+  return stringOne.localeCompare(stringTwo);
 
 
 
