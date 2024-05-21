@@ -169,8 +169,6 @@ function concat(stringOne, stringTwo) {
   //return strings concatenated by + 
   return stringOne + stringTwo;
 
-
-
     // YOUR CODE ABOVE HERE //
 }
 
@@ -187,6 +185,8 @@ function concat(stringOne, stringTwo) {
 function join(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
     var args = Array.from(arguments);
+    //join strings from args array
+    return args.join();
 
 
     // YOUR CODE ABOVE HERE //
