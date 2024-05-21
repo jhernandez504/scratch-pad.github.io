@@ -115,10 +115,22 @@ function getObjectValues(object) {
 /** 
  * Given an input Object, loop over the Object and print its values 
  * using console.log().
- */
+ *//** 
+  I: An object is given.
+  O: Object values are each logged to console.
+  C: N/A
+  E: N/A
+*/
 function printObjectValues(object) {
   // YOUR CODE BELOW HERE //
-  
+  //for in loop over object
+  for (let key in object) {
+    //if statement to check if obj has key
+    if (object.hasOwnProperty(key)) {
+      //logs each value of that obj key
+      console.log(object[key]);
+    }
+  }
   
   
   
