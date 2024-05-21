@@ -107,8 +107,11 @@ function toDashCase(string) {
 */
 function beginsWith(string, char) {
     // YOUR CODE BELOW HERE //
+  //declare and initialize var to hold input string and char
+  var word = string.toLowerCase();
+  var letter = char.toLowerCase();
   //if else statement loosely comparing first character of string and char
-  if (string.charAt(0) == char) {
+  if (word[0] == letter) {
     return true;
   } 
   //returns false if true condition is not met
