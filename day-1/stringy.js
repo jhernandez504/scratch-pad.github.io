@@ -236,8 +236,16 @@ function longest(stringOne, stringTwo) {
  *
  * TIP: How can we compare Strings? Is 'a' greater than or less than 'b'?
  */
+/** 
+  I: Two strings are being compared by alphabetical order
+  O: An integer is returned depending on the comparison between two strings.
+  C: N/A
+  E: N/A
+*/
 function sortAscending(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
+    //compare string1 to string 2 locally
+    return stringOne.localCompare(stringTwo);
 
 
 
