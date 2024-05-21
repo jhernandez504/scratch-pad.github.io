@@ -185,7 +185,7 @@ function concat(stringOne, stringTwo) {
 function join(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
     var args = Array.from(arguments);
-    //join strings from args array
+    //returns joined strings from args array
     return args.join('');
 
 
