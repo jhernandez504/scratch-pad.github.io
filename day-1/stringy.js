@@ -143,7 +143,7 @@ function endsWith(string, char) {
   var word = string.toLowerCase();
   var letter = char.toLowerCase();
   //if statement to return true if last character in string is equal to char
-  if (word[string.length] == letter) {
+  if (word[string.length - 1] == letter) {
     return true;
   }
   //returns false by default if no characters are equal
