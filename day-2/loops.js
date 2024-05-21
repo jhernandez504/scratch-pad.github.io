@@ -52,9 +52,17 @@ function printArrayValuesInReverse(array) {
 /** 
  * Given an input Object, return an Array containing the Object keys.
  */
+/** 
+  I: An object containing keys is given.
+  O: An array of object keys is returned
+  C: N/A
+  E: N/A
+*/
 function getObjectKeys(object) {
   // YOUR CODE BELOW HERE //
-  
+  //return array of object keys using object.key()
+  return object.keys();
+
   
   
   
