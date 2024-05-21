@@ -84,7 +84,7 @@ function printObjectKeys(object) {
   // for in loop to iterate of object keys
   for (var key in object) {
     //if statement to check if obj has key property
-    if (object.hasOwnPropety(key)){
+    if (object.hasOwnProperty(key)){
       console.log(key);
     }
   }
