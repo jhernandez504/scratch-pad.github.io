@@ -140,9 +140,16 @@ function printObjectValues(object) {
 /** 
  * Given an input Object, return the number of key/value pairs stored within that Object.
  */
+/** 
+  I: An object is given
+  O: Returns the number of key/value pairs in the object.
+  C: N/A
+  E: N/A
+*/
 function getObjectLength(object) {
   // YOUR CODE BELOW HERE //
-  
+  //gets the object keys and length of that array
+  return Object.keys(object).length;
   
   
   
