@@ -73,9 +73,19 @@ function getObjectKeys(object) {
  * Given an input Object, loop over the Object and print its keys 
  * using console.log().
  */
+/** 
+  I: An Object is given.
+  O: Object keys is logged to console
+  C: N/A
+  E: N/A
+*/
 function printObjectKeys(object) {
   // YOUR CODE BELOW HERE //
-  
+  // for in loop to iterate of object keys
+  for (var key in object) {
+    //logs to console each key
+    console.log(Object.key(object));
+  }
   
   
   
