@@ -23,12 +23,9 @@ function createGreaterThanFilter(base) {
    return function(value){
     //if true, it returns
         return value > base;
-   }
-var result = createGreaterThanFilter(value);
-console.log(result);
-    // YOUR CODE ABOVE HERE //
-}
+   };
 
+  
     // YOUR CODE ABOVE HERE //
 }
 
