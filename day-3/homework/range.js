@@ -32,18 +32,18 @@ function range(start, end) {
     //create empty array to hold number range
     var numberRange = [];
     //create variables to determine start and end based on input integers
-    var start = Math.min(start, end);
-    var end = Math.max(start, end);
+    var startingNum = Math.min(start, end);
+    var endingNum = Math.max(start, end);
 
     //if statement for if start number is greater than end number
     if (start < end){
         //for loop to iterate through range
-        for (let i = start; i <= end; i++) {
+        for (let i = startingNum; i <= endingNum; i++) {
             numberRange.push(i);
         }
     }   else {
             //for loop to iterate downwards
-            for (let i = end; i >= start; i--){
+            for (let i = endingNum; i >= startingNum; i--){
                 numberRange.push(i);
             }           
     }
