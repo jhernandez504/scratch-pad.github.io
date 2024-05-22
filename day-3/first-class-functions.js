@@ -153,15 +153,12 @@ function allStringsPass(strings, test) {
     // YOUR CODE BELOW HERE //
     //for loop to iterate over array of strings
     for (let i = 0; i < strings.length; i++) {
-        if(test(strings[i]) === true){
+        if(test(strings[i])) {
             return true;
         }
        
         }
         return false;
-    }
-    
-    
     
     // YOUR CODE ABOVE HERE //
 }
