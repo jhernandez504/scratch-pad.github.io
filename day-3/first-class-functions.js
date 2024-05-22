@@ -156,6 +156,9 @@ function allStringsPass(strings, test) {
         if(test(strings[i]) === true){
             return true;
         }
+        else{
+            return false;
+        }
     }
     
     
