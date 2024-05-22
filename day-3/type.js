@@ -75,13 +75,13 @@ function isObject(value) {
 function isCollection(value) {
     // YOUR CODE BELOW HERE //
     //if conditional statement to test if value is both obj and arr only
-    if (Array.isArray(value) && typeof value === 'object'){
-        if(value !== null && !(value instanceof Date)){
+    if (value !== null && typeof value === 'object'){
+        if(!(value instanceof Date)){
             return true;
         }
         
     }
-    //returns true if the if condition isnt fulfilled
+    //returns false if the if condition isnt fulfilled
     return false;
     // YOUR CODE ABOVE HERE //
 }
