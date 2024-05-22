@@ -21,9 +21,34 @@
  *  b. you'll need a loop, which one is best?
  *  c. you'll wanna make use of the push() method of Array.
  */
+/**  
+ * I: Two integers are given as input.
+ * O: Must return an array of numbers ranging between both numbers 
+ * C: Array of numbers must be ordered depending on first input in relation to second
+ * E: N/A
+*/
 function range(start, end) {
     // YOUR CODE GOES BELOW HERE //
-    
+    //create empty array to hold number range
+    var numberRange = [];
+    //create variables to determine start and end based on input integers
+    var start = Math.min(start, end);
+    var end = Math.max(start, end);
+
+    //if statement for if start number is greater than end number
+    if (start < end){
+        //for loop to iterate through range
+        for (let i = start; i <= end; i++) {
+            numberRange.push(i);
+        }
+    }   else {
+            //for loop to iterate downwards
+            for (let i = end; i >= start; i--){
+                numberRange.push(i);
+            }           
+    }
+
+
     
     
     
