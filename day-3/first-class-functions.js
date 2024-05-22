@@ -65,8 +65,10 @@ function createLessThanFilter(base) {
 */
 function createStartsWithFilter(startsWith) {
     // YOUR CODE BELOW HERE //
+    //converts string to lowercase
+    var lowerCased = string.toLowerCase();
     return function(string){
-        return string.startsWith(startsWith);
+        return lowerCased.startsWith(startsWith);
     };
     
     
