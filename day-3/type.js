@@ -14,6 +14,12 @@
  * 
  * HINT: There is a method that can help with this.
  */
+/**
+ * I: Input value is given.
+ * O: True or false after testing if input is an array.
+ * C: N/A
+ * E: N/A
+ */
 function isArray(value) {
     // YOUR CODE BELOW HERE //
     return Array.isArray(value);
@@ -32,10 +38,16 @@ function isArray(value) {
  * with typeof.
  * 
  */
+/**
+ * I: An input value is given.
+ * O: True if input value is an object.
+ * C: N/A
+ * E: N/A
+ */
 function isObject(value) {
     // YOUR CODE BELOW HERE //
-    
-
+    //return true if value is object
+    return Object.isObject(value);
     
     
     // YOUR CODE ABOVE HERE //
