@@ -47,7 +47,7 @@ function isArray(value) {
 function isObject(value) {
     // YOUR CODE BELOW HERE //
     // nested if statement testing value to be object excluding null, array and instanceof date
-    if(typeof value === 'object' && typeof value !== null){
+    if(typeof value === 'object' && value !== null) {
         if (!Array.isArray(value) && !(value instanceof Date)){
             return true;
         }
