@@ -47,7 +47,7 @@ function isArray(value) {
 function isObject(value) {
     // YOUR CODE BELOW HERE //
     //return true if value is object
-    return value !== null && typeof value === 'object';
+    return value !== null && value !== 'array' && typeof value === 'object';
     
     
     // YOUR CODE ABOVE HERE //
