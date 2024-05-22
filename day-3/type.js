@@ -107,10 +107,20 @@ function isCollection(value) {
  */ 
 function typeOf(value) {
     // YOUR CODE BELOW HERE //
-    
-    
-    
-    
+    //if statements to determine typeof each 
+    if (value === null){
+        return "null";
+    }
+    if (Array.isArray(value)){
+        return "array";
+    }
+    if (value === undefined){
+        return "undefined";
+    }
+    if (value instanceof Date){
+        return "date";
+    }
+    return typeof value;
     // YOUR CODE ABOVE HERE //
 }
 
