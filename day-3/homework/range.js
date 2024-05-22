@@ -47,10 +47,7 @@ function range(start, end) {
                 numberRange.push(i);
             }           
     }
-
-
-    
-    
+    return numberRange;
     
     // YOUR CODE GOES ABOVE HERE //
 }
