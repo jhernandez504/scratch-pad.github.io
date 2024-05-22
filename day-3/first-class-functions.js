@@ -57,8 +57,17 @@ function createLessThanFilter(base) {
  * Function that tests whether a given String starts with the startsWith 
  * character.
  */
+/**  
+ * I: A single character is given.
+ * O: Returns true of false after testing inside a function whether string starts with input character.
+ * C: N/A
+ * E: N/A
+*/
 function createStartsWithFilter(startsWith) {
     // YOUR CODE BELOW HERE //
+    return function(string){
+        return string.startsWith(startsWith);
+    };
     
     
     
