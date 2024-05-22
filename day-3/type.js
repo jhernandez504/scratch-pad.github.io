@@ -40,14 +40,14 @@ function isArray(value) {
  */
 /**
  * I: An input value is given.
- * O: True if input value is an object.
- * C: N/A
+ * O: True if input value is an object..
+ * C: Must not be an array, null or instance of date().
  * E: N/A
  */
 function isObject(value) {
     // YOUR CODE BELOW HERE //
     //return true if value is object
-    return value !== null && value !== 'array' && typeof value === 'object';
+    return typeof value === 'object' && typeof value !== null;
     
     
     // YOUR CODE ABOVE HERE //
