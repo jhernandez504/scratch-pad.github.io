@@ -66,12 +66,21 @@ function isObject(value) {
  * 
  * TIP: Similar to isObject, but we must return true if the value is an Array.
  */
+/**
+ * I: An input value is given.
+ * O: True if input value is an object or an array
+ * C: Must not be null or instance of date().
+ * E: N/A
+ */
 function isCollection(value) {
     // YOUR CODE BELOW HERE //
+    //if conditional statement to test if value is both obj and arr only
+    if (!(value instanceof Date) && value !== null){
+        return false;
+    }
     
-    
-    
-    
+    //returns true if the if condition isnt fulfilled
+    return true;
     // YOUR CODE ABOVE HERE //
 }
 
