@@ -34,9 +34,18 @@ function createGreaterThanFilter(base) {
  * return a Function that tests whether a given value is less than the 
  * base. (test means return true or false)
  */
+/**  
+ * I: An input base is given which is either a string or number.
+ * O: Returns true or false by testing if the given value is less than base.
+ * C:
+ * E:
+*/
 function createLessThanFilter(base) {
     // YOUR CODE BELOW HERE //
-    
+    //return function to test value and returns if true
+    return function(value) {
+        return value < base;
+    };
    
     
     
