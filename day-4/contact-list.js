@@ -39,7 +39,10 @@ function makeContact(id, nameFirst, nameLast) {
      var contact = {
         'id': id,
         'nameFirst': nameFirst,
-        'nameLast': nameLast   
+        'nameLast': nameLast,
+        'fullName': function(nameFirst, nameLast){
+            return contact.nameFirst + " " + contact.nameLast;
+        }   
     }
       return contact;
   } 
