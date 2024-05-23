@@ -60,7 +60,7 @@ function makeContact(id, nameFirst, nameLast) {
         addContact: function(contact) {
             return contacts.push(contact);
         },
-        find: function(fullName) {
+        findContact: function(fullName) {
             for (var i = 0; i < contacts.length; i++) {
                 if (fullName === contacts[i]["nameFirst"] + " " + contacts[i]["nameLast"]) {
                     return contacts[i];
@@ -73,6 +73,9 @@ function makeContact(id, nameFirst, nameLast) {
                     return contacts.splice(i, 1);
                 }
             }
+        },
+        printAllContactNames: function(contacts){
+            return contacts.map(contact => contact.firstName + " " + contact.nameLast).join('\n');
         }
         
         }
