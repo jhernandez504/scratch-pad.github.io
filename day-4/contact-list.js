@@ -61,7 +61,7 @@ function makeContact(id, nameFirst, nameLast) {
         },
         find: function(fullName) {
             for (var i = 0; i < contacts.length; i++) {
-                if (contacts[i]["nameFirst"] + " " + contacts[i]["nameLast"] === fullName) {
+                if (fullName === contacts[i]["nameFirst"] + " " + contacts[i]["nameLast"]) {
                     return contacts[i];
                 }
             }
@@ -69,7 +69,7 @@ function makeContact(id, nameFirst, nameLast) {
         removeContact: function(contact){
             for (var i = 0; i < contacts.length; i++) {
                 if (contacts[i].id === contact.id) {
-                    contacts.splice(i, 1);
+                    return contacts.splice(i, 1);
                 }
             }
         }
