@@ -57,7 +57,7 @@ function makeContact(id, nameFirst, nameLast) {
             return contacts.length;
         },
         addContact: function(contact) {
-            return contacts.push();
+            return contacts.push(contact);
         },
         find: function(fullName) {
             for (var i = 0; i < contacts.length; i++) {
