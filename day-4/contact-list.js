@@ -72,11 +72,12 @@ function makeContact(id, nameFirst, nameLast) {
             for (var i = 0; i < contacts.length; i++) {
                 if (contacts[i].id === contact.id) {
                     return contacts.splice(i, 1);
+                    break;
                 }
             }
         },
         printAllContactNames: function(){
-            return contacts.map(contact => contact.firstName + " " + contact.nameLast).join('\n');
+            return contacts.map(contact => contact.nameFirst + " " + contact.nameLast).join('\n');
         }
         
         }
