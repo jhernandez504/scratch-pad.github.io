@@ -75,7 +75,7 @@ function makeContact(id, nameFirst, nameLast) {
             }
         },
         printAllContactNames: function(contacts){
-            return contacts.map(contact => contact.firstName + " " + contact.nameLast).join('\n');
+            return contacts.Map(contact => contact.firstName + " " + contact.nameLast).join('\n');
         }
         
         }
