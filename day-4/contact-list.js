@@ -50,6 +50,7 @@ function makeContact(id, nameFirst, nameLast) {
     /*
      * You need something here to hold contacts. See length api for a hint:
      */
+    //contacts list array to store created contacts
     var contacts = [];
   
     return {
@@ -58,24 +59,31 @@ function makeContact(id, nameFirst, nameLast) {
             return contacts.length;
         },
         addContact: function(contact) {
+            //returns contact added to array
             return contacts.push(contact);
         },
         findContact: function(fullName) {
+            //iterate through contacts and return contact nameFirst + name Last if matches index
             for (var i = 0; i < contacts.length; i++) {
                 if (fullName === contacts[i]["nameFirst"] + " " + contacts[i]["nameLast"]) {
                     return contacts[i];
                 }
             }
+            //if no contact is found return undefined
             return undefined;
         },
         removeContact: function(contact){
+            //for loop to iterate through contact list
             for (var i = 0; i < contacts.length; i++) {
+                //if contact id at index matches contact id, delete
                 if (contacts[i].id === contact.id) {
                     return contacts.splice(i, 1);
+                    //after contact is removed break loop
                     break;
                 }
             }
         },
+        //print allContactNames with line breaks
         printAllContactNames: function(){
             return contacts.map(contact => contact.nameFirst + " " + contact.nameLast).join('\n');
         }
