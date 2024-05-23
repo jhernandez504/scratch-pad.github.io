@@ -66,6 +66,7 @@ function makeContact(id, nameFirst, nameLast) {
                     return contacts[i];
                 }
             }
+            return undefined;
         },
         removeContact: function(contact){
             for (var i = 0; i < contacts.length; i++) {
