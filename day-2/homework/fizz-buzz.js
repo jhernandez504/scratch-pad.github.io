@@ -14,20 +14,23 @@ function fizzBuzz() {
     // YOUR CODE GOES BELOW HERE //
     //for loop to iterate thru 1-100 and print
     for (let i = 1; i <= 100; i++) {
+        //if statement if divisable by 3 & 5 prints fizzbuzz
         if (i % 5 === 0 && i % 3 === 0){
             console.log('FizzBuzz');
+            //else if statement that prints fizz if number is divisable by 3 only
         } else if (i % 3 === 0){
             console.log('Fizz');
+            //else if statement that prints buzz if number is divisable by 5 only
         }   else if ( i % 5 === 0){
                 console.log('Buzz');
+                //default prints number if previous checks pass thru
         }   else{
                 console.log(i);
         }
-        }
-        
-        }
     }
-
+             
+}
+fizzBuzz();
 
     // YOUR CODE GOES ABOVE HERE //
 }
