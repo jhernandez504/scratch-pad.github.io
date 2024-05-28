@@ -24,7 +24,7 @@ function fizzBuzz() {
         }   else if ( i % 5 === 0){
                 console.log('Buzz');
                 //default prints number if previous checks pass thru
-        }   else{
+        }   else {
                 console.log(i);
         }
     }
@@ -33,7 +33,7 @@ function fizzBuzz() {
 fizzBuzz();
 
     // YOUR CODE GOES ABOVE HERE //
-}
+
 
 
 
